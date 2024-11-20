@@ -1,0 +1,192 @@
+// This is base reset for form elements.
+//
+// Note: If you use a framework that includes form styling then you need to remove this file.
+
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="search"],
+input[type="password"],
+textarea {
+  @include placeholder {
+    font-family: var(--base-font-family);
+    color: var(--placeholder-color);
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: unset;
+  }
+
+  appearance: none;
+  box-sizing: border-box;
+  font-family: var(--form-font-family);
+  border-radius: 4px;
+  border: none;
+  outline: var(--color-white-gray);
+  padding: var(--form-element-padding);
+  line-height: 24px;
+  background-color: var(--color-white-gray);
+  color: var(--color-black);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  height: unset;
+
+  &:focus {
+    border-color: unset;
+  }
+}
+
+label {
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.MuiInputBase-root .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+.MuiPaper-root .MuiList-root {
+  border-radius: 4px;
+}
+
+.MuiList-root .MuiButtonBase-root {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.MuiInputBase-root .MuiSelect-nativeInput {
+  @include placeholder {
+    font-family: var(--base-font-family);
+    color: var(--placeholder-color);
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: unset;
+  }
+
+  appearance: none;
+  box-sizing: border-box;
+  font-family: var(--form-font-family);
+  border-radius: 4px;
+  border: none;
+  outline: var(--color-white-gray);
+  padding: var(--form-element-padding);
+  line-height: 24px;
+  background-color: var(--color-white-gray);
+  color: var(--color-black);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  height: unset;
+
+  &:focus {
+    border-color: unset;
+  }
+}
+
+.MuiInputBase-root .MuiSelect-select {
+  @include placeholder {
+    font-family: var(--base-font-family);
+    color: var(--placeholder-color);
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: unset;
+  }
+
+  appearance: none;
+  box-sizing: border-box;
+  font-family: var(--form-font-family);
+  border-radius: 4px;
+  border: none;
+  outline: var(--color-white-gray);
+  padding: var(--form-element-padding);
+  line-height: 24px;
+  background-color: var(--color-white-gray);
+  color: var(--color-black);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  height: unset;
+
+  &:focus {
+    border-color: unset;
+  }
+}
+
+.MuiFormControl-root .MuiInputBase-root {
+
+  &::before,
+  &::after {
+    content: unset;
+  }
+}
+
+//* Remove the "clear" btn in search input
+input[type="search"] {
+
+  /* clears the ‘X’ from Internet Explorer */
+  &::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  &::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  /* clears the ‘X’ from Chrome */
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+}
+
+select {
+  border-radius: 0;
+}
+
+textarea {
+  resize: vertical;
+  vertical-align: top;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="file"],
+input[type="submit"],
+.MuiButton-root.MuiButtonBase-root {
+  appearance: none;
+  border-radius: 8px;
+  background-color: var(--btn-background);
+  cursor: pointer;
+  color: var(--color-white);
+  font-family: var(--form-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: none;
+  padding: 11px 20px;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
