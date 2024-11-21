@@ -40,7 +40,7 @@ export default function GamePage() {
           <div className="win-modal__wrapper">
             <img
               className="win-modal__img"
-              src="/assets/images/offer.png"
+              src="/prime-hire-tz/assets/images/offer.png"
               alt="offer image with bottle of Jack Denield"
             />
 
@@ -71,7 +71,7 @@ export default function GamePage() {
               Apply now
               <ReactSVG
                 className="win-modal__icon"
-                src="/assets/icons/arrow-icon.svg"
+                src="/prime-hire-tz/assets/icons/arrow-icon.svg"
               />
             </button>
           </div>

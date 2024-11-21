@@ -46,7 +46,7 @@ export default function TimerLeft(props: TimerLeftProps) {
       <div className="timer-left">
         <ReactSVG
           className="timer-left__icon"
-          src="/assets/icons/timer-icon.svg"
+          src="/prime-hire-tz/assets/icons/timer-icon.svg"
         />
 
         <p className="timer-left__desc">

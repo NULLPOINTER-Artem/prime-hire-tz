@@ -6,14 +6,14 @@ export default function Header() {
       <div className="the-header__wrapper">
         <img
           className="the-header__logo"
-          src="/assets/images/logo-jd.png"
+          src="/prime-hire-tz/assets/images/logo-jd.png"
           alt="Jack Denield logo"
         />
 
         <button type="button" className="the-header__btn">
           <ReactSVG
             className="the-header__icon"
-            src="/assets/icons/cart-icon.svg"
+            src="/prime-hire-tz/assets/icons/cart-icon.svg"
           />
         </button>
       </div>

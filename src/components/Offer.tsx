@@ -5,7 +5,7 @@ export default function Offer() {
         Exclusive Offer for You!
         <img
           className="offer__btn-img"
-          src="/assets/images/btn-subtract.png"
+          src="/prime-hire-tz/assets/images/btn-subtract.png"
           alt="btn subtract"
         />
       </button>
@@ -27,7 +27,7 @@ export default function Offer() {
 
       <img
         className="offer__img"
-        src="/assets/images/offer.png"
+        src="/prime-hire-tz/assets/images/offer.png"
         alt="offer image with bottle of Jack Denield"
       />
 

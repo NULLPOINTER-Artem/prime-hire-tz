@@ -125,7 +125,7 @@ export default function Survey({
             <div className="survey__alarm">
               <ReactSVG
                 className="survey__alarm-icon"
-                src="/assets/icons/warn-icon.svg"
+                src="/prime-hire-tz/assets/icons/warn-icon.svg"
               />
               Hurry up! The number of prizes is limited!
             </div>
@@ -197,7 +197,7 @@ export default function Survey({
                   >
                     <ReactSVG
                       className="survey__complete-icon"
-                      src="/assets/icons/check-icon.svg"
+                      src="/prime-hire-tz/assets/icons/check-icon.svg"
                     />
                     {step.title}
                   </div>

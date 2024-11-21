@@ -115,19 +115,19 @@ export default function Box({ isWinner, handleWin }: BoxProps) {
       <img
         ref={topRef}
         className="box__top"
-        src="/assets/images/box/top.png"
+        src="/prime-hire-tz/assets/images/box/top.png"
         alt="box box__top"
       />
       <img
         ref={lightRef}
         className="box__light"
-        src="/assets/images/box/light.png"
+        src="/prime-hire-tz/assets/images/box/light.png"
         alt="box box__light"
       />
       <img
         ref={middleRef}
         className="box__middle"
-        src="/assets/images/box/middle.png"
+        src="/prime-hire-tz/assets/images/box/middle.png"
         alt="box box__middle"
       />
 
@@ -136,13 +136,13 @@ export default function Box({ isWinner, handleWin }: BoxProps) {
           <img
             ref={backpackWinRef}
             className="box__backpack-win"
-            src="/assets/images/box/backpack-win.png"
+            src="/prime-hire-tz/assets/images/box/backpack-win.png"
             alt="box box__backpack-win"
           />
           <img
             ref={backpackRef}
             className="box__backpack"
-            src="/assets/images/box/backpack.png"
+            src="/prime-hire-tz/assets/images/box/backpack.png"
             alt="box box__backpack"
           />
         </>
@@ -151,7 +151,7 @@ export default function Box({ isWinner, handleWin }: BoxProps) {
       <img
         ref={bodyRef}
         className="box__body"
-        src="/assets/images/box/body.png"
+        src="/prime-hire-tz/assets/images/box/body.png"
         alt="box body"
       />
     </div>
