@@ -1,6 +1,7 @@
 {
   "name": "prime-hire-tz",
   "version": "0.1.0",
+  "homepage": "https://NULLPOINTER-Artem.github.io/prime-hire-tz",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -22,6 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "normalize.css": "^8.0.1"
   }
 }
