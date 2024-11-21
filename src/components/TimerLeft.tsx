@@ -8,16 +8,18 @@ export type timeType = {
 
 interface TimerLeftProps {
   initialTime?: timeType;
+  useTimer: boolean;
 }
 
 export default function TimerLeft(props: TimerLeftProps) {
   const [timeLeft, setTimeLeft] = useState<number>(
     props.initialTime
       ? props.initialTime.minutes * 60 + props.initialTime.seconds
-      : 1 * 60 + 20
+      : 8 * 60
   );
 
   useEffect(() => {
+    if (!props.useTimer) return; 
     let interval: NodeJS.Timer | null = null;
 
     if (timeLeft > 0) {

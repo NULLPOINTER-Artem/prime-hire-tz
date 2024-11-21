@@ -1,6 +1,7 @@
 .offer {
-    margin-top: 16px;
     padding: 0 19px;
+    max-width: 390px;
+    margin: 16px auto 0;
 }
 
 .offer__btn {
@@ -12,6 +13,9 @@
     border: unset;
     display: block;
     margin: 0 auto;
+
+    min-height: 36px;
+    min-width: 214px;
 }
 
 .offer__btn-img {
@@ -35,7 +39,7 @@
 
 .offer__desc {
     font-size: 14px;
-    margin-top: 16px;
+    margin-top: 18px;
     margin-bottom: 0;
     color: #FFFFFFB2;
     text-align: left;

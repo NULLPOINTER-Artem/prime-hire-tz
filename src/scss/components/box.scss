@@ -1,0 +1,48 @@
+.box {
+    width: 108px;
+    height: 108px;
+    position: relative;
+    cursor: pointer;
+}
+
+.box__top,
+.box__middle,
+.box__light,
+.box__body,
+.box__backpack,
+.box__backpack-win {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box__top {
+    z-index: 3;
+    top: 24%;
+}
+
+.box__middle {
+    top: 33%;
+    z-index: 1;
+}
+
+.box__light {
+    top: 32%;
+    z-index: 2;
+}
+
+.box__body {
+    z-index: 1;
+}
+
+.box__backpack {
+    z-index: 2;
+    top: 17%;
+}
+
+.box__backpack-win {
+    z-index: 1;
+    top: 50%;
+    // top: 17%;
+}

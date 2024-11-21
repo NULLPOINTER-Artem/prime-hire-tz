@@ -1,0 +1,35 @@
+.game-wrapper {
+    margin-top: 36px;
+    padding: 24px 32px;
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.tab-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.tab-item {
+    background-color: #FFFFFF0F;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    min-width: 103px;
+    padding: 12px;
+    cursor: pointer;
+
+    &.active {
+        border: 2px solid #B9AC90;
+        color: #B9AC90;
+    }
+}
+
+.box-list {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

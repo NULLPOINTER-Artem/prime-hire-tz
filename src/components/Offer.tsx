@@ -1,6 +1,6 @@
 export default function Offer() {
   return (
-    <div className="offer">
+    <section className="offer">
       <button type="button" className="offer__btn">
         Exclusive Offer for You!
         <img
@@ -42,6 +42,6 @@ export default function Offer() {
           States!
         </span>
       </p>
-    </div>
+    </section>
   );
 }
