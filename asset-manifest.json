@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/prime-hire-tz/static/css/main.b61ade88.css",
-    "main.js": "/prime-hire-tz/static/js/main.1aa7580f.js",
+    "main.js": "/prime-hire-tz/static/js/main.96cc348e.js",
     "static/js/453.e7d914c3.chunk.js": "/prime-hire-tz/static/js/453.e7d914c3.chunk.js",
     "index.html": "/prime-hire-tz/index.html",
     "main.b61ade88.css.map": "/prime-hire-tz/static/css/main.b61ade88.css.map",
-    "main.1aa7580f.js.map": "/prime-hire-tz/static/js/main.1aa7580f.js.map",
+    "main.96cc348e.js.map": "/prime-hire-tz/static/js/main.96cc348e.js.map",
     "453.e7d914c3.chunk.js.map": "/prime-hire-tz/static/js/453.e7d914c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b61ade88.css",
-    "static/js/main.1aa7580f.js"
+    "static/js/main.96cc348e.js"
   ]
 }
